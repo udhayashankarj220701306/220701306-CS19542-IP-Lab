@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fill{
+    background-color: #508C9B;
+    display: inline-block;
+    width: 5rem;
+    height: 15rem;
+    position: absolute;
+    margin-top: 3rem;
+    top:0;
+}
+.contact{
+    background-color: #134B70;
+    display: inline-block;
+    position: absolute;
+    width: 20rem;
+    height: 60rem;
+    padding: 4rem;
+    margin-left: 65%;
+}
+.contact img{
+    width: 15rem;
+    border-radius: 100rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+.name{
+    background-color: #508C9B;
+    display: inline-block;
+    width: 200rem;
+    height: 10rem;
+    margin-top: 3rem;
+    position: absolute;
+    top:0;
+    padding: 3rem;
+    padding-left: 15rem;
+}
+
+.qua{
+  
+    display: inline-block;
+    width: 200rem;
+    height: 10rem;
+    margin-top: 20rem;
+    position:absolute;
+    top:0;
+    margin-left: 5rem;
+    padding: 3rem;    
+}
+.phone{
+    display: inline-block;
+    margin-top: 25rem;
+}
+.phone img,p{
+    width: 1rem;
+    display: inline;
+}
+li{
+    margin-left: 2rem;
+}
+hr{
+    width:  45vw;
+}
+body{
+    
+    background-color: #EEEEEE;
+}

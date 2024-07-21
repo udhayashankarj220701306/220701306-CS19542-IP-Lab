@@ -1,0 +1,37 @@
+body{
+    font-weight: bold;
+    font-size: larger;
+}
+table,td ,th{
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+    
+}
+table{
+    border: 0px;
+}
+td,th{
+    height:40px;
+    padding:5px;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    text-align:center;
+    width: 20rem;
+}
+p{
+   margin:0px;
+   
+}
+tr>td>p:nth-child(2){
+    color: red;
+}
+.left{
+    text-align: left;
+}
+.break{
+    /* writing-mode: vertical-lr; */
+    rotate: -90deg;
+}
