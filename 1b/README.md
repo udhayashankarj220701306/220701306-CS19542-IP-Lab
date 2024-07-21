@@ -3,4 +3,4 @@
 ## Original
 ![Original](org.png)
 ## Output
-![Output](output.png)
+![Output](output.jpg)
