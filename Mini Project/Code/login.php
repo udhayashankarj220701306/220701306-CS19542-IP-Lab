@@ -40,7 +40,6 @@
                 <input type="text" name="username" placeholder="User Name" required>
                 <input type="password" name="password" placeholder="Password" required>
                 <button type="submit">Login</button>
-                <a href="/home.php">profile</a>
             </form>
         </div>
     </div>
