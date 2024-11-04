@@ -1,14 +1,5 @@
-.dark-purple{
-    background-color: rgb(105, 3, 105) !important; 
-}
-.purple{
-    background-color: purple !important;
-}
-.text-purple{
-    color: purple !important;
-}
-.text-white{
-    color:white;
+body{
+  align-content: center;
 }
 .container-for-image {
     position: relative;
@@ -83,23 +74,92 @@
   .header{
     height: 30%;
   }
-  div.purple{
+  /* div.purple{
     height: 10px;
-  }
+  } */
   .nav-link{
     color: white !important;
     /* text-wrap: nowrap; */
     text-transform: full-width;
     white-space: nowrap;
   }
-  .navbar{
+  .left-bottom{
     border-bottom-left-radius: 70px;
 
   }
   .dropdown:hover>.dropdown-menu {
     display: block;
   }
+  .icon-bar{
+    width: 20px;
+    background: #fff;
+    height: 2px;
+    margin: 5px 0px;
+  }
+  .dark-purple{
+    background-color: rgb(105, 3, 105) !important; 
+  }
+  .purple{
+    background-color: purple !important;
+  }
+  .text-purple{
+    color: purple !important;
+  }
+  .text-white{
+    color:white !important;
+  }
   .dropdown-item:hover {
-    color: white !important;
-    background-color: purple !important; /* Lighter purple shade on hover */
+    color: purple !important;
+    background-color: white !important; /* Lighter purple shade on hover */
+  }
+  .navbar-nav,.navbar {
+    align-items: center;
+}
+.carousel-inner img {
+  height: 500px; /* Set the height of the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  width: 100%; /* Ensure images take full width */
+}
+.carousel-caption{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  /* left: 50%; */
+  /* width: 50%; */
+  background-color: purple ;
+  opacity: 70%;
+}
+@media (max-width: 767.98px) {
+      .carousel-caption {
+          left: 0px; /* Full width */
+      }
+  }
+
+  /* Half width on medium screens and up */
+  @media (min-width: 768px) {
+      .carousel-caption {
+          left: 50%; /* Half width */
+          /* left: 25%; Centering the half width caption */
+      }
+  }
+  iframe{
+    width:100%;
+    height: 100%;
+  }
+  .marquee{
+    justify-content: center;
+  }
+  marquee {
+    height: 360px;
+    line-height: 24px;
+    overflow: Hidden;
+  }
+  marquee li {
+    text-align: center;
+  }
+  .h4{
+    border-bottom: solid 2px rgba(254, 204, 0, .9);
+  }
+  .d-block{
+    text-align: center;
   }
